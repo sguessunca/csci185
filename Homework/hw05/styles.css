@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Your CSS Code Here! */
+
+ul {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+li {
+    padding: 10px
+}
+
+a {
+    color: black;
+    text-decoration: none
+}
+
+header {
+    background-color: aqua;
+}
+
+#profile-pick {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+    border-radius: 50%;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+h1 {
+font-family: 'Special Elite', cursive;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-holder {
+display: flex;
+justify-content: center;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+
+
+
+#projects {
+    background-color: blanchedalmond;
+}
+
+.card, p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.contact-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+form {
+    display: flex;
+    flex-direction: column; 
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+@media (max-width: 800px) {
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+}
+
+h1, h2 {
+    font-family: 'Special Elite', cursive;
+    padding: 15px
+}

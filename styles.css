@@ -12,3 +12,20 @@ p, a, li {
     line-height: 1.5em;
     font-size: 1.1em;
 }
+
+document, body {
+    background: #ccc;
+    margin: 0px;
+    height: 100%;
+ }
+ .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    min-height: 100vh;
+ }
+ 
+ .wrapper section {
+    background: #FFF;
+    margin: 2px;
+    padding: 5px;
+ }
