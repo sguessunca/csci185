@@ -1,5 +1,5 @@
 <style>
-  @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Special+Elite&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700&family=Special+Elite&display=swap');
 </style>
 
 body * {
@@ -51,7 +51,7 @@ color:white;
  }
 
  h1, h2, h3 {
-    font-family: 'Passion One', cursive;
+    font-family: 'Passion One', bold 700;
  }
 
  h1 {
@@ -64,24 +64,48 @@ color:white;
 
 .cards {
     display: grid;
-    grid-template-columns: auto auto; 
-    column-gap: 30px
+    grid-template-columns: 1fr 1fr ; 
+    grid-column-gap: 30px;
+    grid-row-gap: 10px;
+    justify-content: stretch;
+    align-content: end;
+    grid-auto-rows: 200px;
  }
 
- .card {
-  grid-column: auto
- }
+ .card img {
+    width: 120px;
+    height: auto;
 
- .cards:first-child, .cards:second-child, .cards:third-child, .cards:fourth-child{
-grid-column: 1 / 2
- }
+}
 
- .cards:fifth-child, .cards:sixth-child, .cards:seventh-child, .cards:eighth-child{
-    grid-column: 2 / 3
-     }
+ 
+
+ 
 
     .card {
         display: grid;
-        grid-template-columns: 1fr 1fr
+        grid-template-columns: 70% 30%;
+        border: 1px solid black;
+        padding: 10px;
+        column-gap: 5px ;
     }
+
+a {
+    text-decoration: none;
+}
+
+.card:hover {
+    color: white;
+    background-color: #013672;
+    transition: .425s ease-in-out;
+}
+
+@media (max-width: 800px) {
+    .cards {
+         grid-template-columns: 1fr;
+}
+    nav {
+        display: none
+    }
+}
 
