@@ -1,0 +1,87 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Special+Elite&display=swap');
+</style>
+
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, main, footer {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+header {
+    background-color: #013672;
+}
+
+header img, footer img {
+    width: 200px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: space-between;
+    align-content: center
+}
+
+nav {
+    margin-top: 20px;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row
+}
+
+a {
+padding: 5px;
+color:white;
+}
+
+ #logo-header img {
+    padding: 10px
+ }
+
+ h1, h2, h3 {
+    font-family: 'Passion One', cursive;
+ }
+
+ h1 {
+    text-align: center
+ }
+
+ h1, h2 {
+    margin-top: 20px;
+ }
+
+.cards {
+    display: grid;
+    grid-template-columns: auto auto; 
+    column-gap: 30px
+ }
+
+ .card {
+  grid-column: auto
+ }
+
+ .cards:first-child, .cards:second-child, .cards:third-child, .cards:fourth-child{
+grid-column: 1 / 2
+ }
+
+ .cards:fifth-child, .cards:sixth-child, .cards:seventh-child, .cards:eighth-child{
+    grid-column: 2 / 3
+     }
+
+    .card {
+        display: grid;
+        grid-template-columns: 1fr 1fr
+    }
+
