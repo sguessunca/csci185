@@ -41,10 +41,10 @@ triangle(
 if (i % 3 === 2) { fill("blue");
  let coefX = randomFloat(-3, 3);
  let coefY = randomFloat(-3, 3);
- square(x, y, size);
+ square(x1, y1, size1);
 
     }
-} ++i;
+} i++;
     
      }
 
