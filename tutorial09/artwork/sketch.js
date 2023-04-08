@@ -44,7 +44,7 @@ if (i % 3 === 2) { fill("blue");
  square(x1, y1, size1);
 
     }
-} i++;
+} ;
     
      }
 
